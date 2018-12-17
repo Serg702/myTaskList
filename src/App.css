@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.task {
+  min-height: 10%;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.task-list {
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input {
+  width: 30%;
+  height: 20px;
+  border: 2px double rgb(243, 166, 50);
+}
+
+button {
+  width: 15%;
+  border: 2px solid black;
+  margin: 2px;
+  font-size: 15px;
+}
+
+.incomplete {
+  background-color: rgb(255, 8, 8);
+  min-height: 50px;
+  padding: 10px;
+}
+
+.complete {
+  background-color: rgb(17, 231, 17);
+  min-height: 50px;
+  padding: 10px;
+}
